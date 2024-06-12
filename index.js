@@ -1,9 +1,9 @@
-const core = require('@actions/core');
+import { setOutput } from '@actions/core';
 
 function verifyRelease(_pluginConfig, { nextRelease }) {
-  core.setOutput("tag", nextRelease.gitTag);
+  setOutput("tag", nextRelease.gitTag);
 }
 
-module.exports = {
+export default {
   verifyRelease,
 };
