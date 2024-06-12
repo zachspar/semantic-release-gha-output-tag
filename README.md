@@ -1,5 +1,5 @@
 # semantic-release-gha-output-tag
-![NPM Version](https://img.shields.io/npm/v/semantic-release-gha-output-tag)
+[![npm](https://img.shields.io/npm/v/semantic-release-gha-output-tag.svg)](https://www.npmjs.com/package/semantic-release-gha-output-tag)
 
 A semantic release plugin to output git 'tag' from a GitHub Action step.
 
