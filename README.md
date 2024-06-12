@@ -1,4 +1,7 @@
 # semantic-release-gha-output-tag
+> [!IMPORTANT]
+> This repo is deprecated and moved to [`semantic-release-gha-output`](https://github.com/zachspar/semantic-release-gha-output)!
+
 [![npm](https://img.shields.io/npm/v/semantic-release-gha-output-tag.svg)](https://www.npmjs.com/package/semantic-release-gha-output-tag)
 
 A semantic release plugin to output git 'tag' from a GitHub Action step.
