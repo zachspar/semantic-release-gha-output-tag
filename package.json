@@ -24,6 +24,7 @@
     "semantic-release-gha-output-tag": "."
   },
   "release": {
+    "repositoryUrl": "https://github.com/zachspar/semantic-release-gha-output-tag.git",
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
