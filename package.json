@@ -17,10 +17,10 @@
   "description": "A semantic-release plugin to output the git 'tag' as a GitHub Action job step variable.",
   "main": "index.js",
   "peerDependencies": {
-    "semantic-release": ">=18"
+    "semantic-release": ">=17"
   },
   "devDependencies": {
-    "semantic-release": ">=18",
+    "semantic-release": ">=17",
     "semantic-release-gha-output-tag": "."
   },
   "release": {
@@ -28,8 +28,7 @@
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
       "@semantic-release/github",
-      "@semantic-release/npm",
-      "semantic-release-gha-output-tag"
+      "@semantic-release/npm"
     ]
   }
 }
